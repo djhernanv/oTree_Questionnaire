@@ -5,8 +5,8 @@ from .models import Constants
 
 
 class questionnaire(Page):
-    pass
-
+    form_model = models.Player
+    form_fields = ['luck', 'skill']
 
 class Results(Page):
     pass
